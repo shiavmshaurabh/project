@@ -5,11 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .container{
-            border:5px solid;
+        .header{
             display: flex;
             justify-content: center;
+            margin-bottom: 10px;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+        .card{
+            border: 1px solid;
             background-color: aqua;
+            padding: 25px;
+            border-radius: 20px;
         }
         .image{
             border-radius: 10%;
@@ -19,6 +28,9 @@
     <script src="./script.js" defer></script>
 </head>
 <body>
+    <div class="header">
+        <h1 class="title">Random User Generator</h1>
+    </div>
     <div class="container">
         <div class="card">
             <div class="head">
